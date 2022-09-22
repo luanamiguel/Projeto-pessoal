@@ -1,0 +1,56 @@
+.interesses {
+  max-width: 1200px;
+  padding: 20px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+}
+
+.interesses.subtitulo {
+  color: rgb(180, 201, 219) aliceblue;
+}
+
+.interesses-texto {
+  font-size: 1.1rem;
+  line-height: 1.33;
+  max-width: 50ch;
+  margin-bottom: 30px;
+  color: rgb(240, 240, 240);
+}
+
+.interesses-texto strong {
+  color: rgb(255, 255, 255);
+}
+
+.hobbies {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+  background: rgb(77, 83, 104);
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.hobbies-titulo {
+  font-size: 1.125rem;
+  line-height: 1.1;
+  font-weight: bold;
+}
+.hobbies-texto {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: rgb(187, 196, 204);
+}
+@media (max-width: 800px) {
+  .interesses {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .interesses.subtitulo {
+    color: rgb(209, 213, 216);
+  }
+  .interesses-texto {
+    font-size: 1.2rem;
+  }
+}
